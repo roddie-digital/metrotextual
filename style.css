@@ -1,0 +1,125 @@
+body {
+  background-color: red;
+  font-family: Consolas, monospace, monospace;
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(10, 5rem);
+  grid-template-rows: repeat(12, 5rem);
+  grid-column-gap: 3px;
+  grid-row-gap: 3px;
+  background-color: red;
+}
+
+.box {
+  border-radius: 2px;
+  padding: 1rem;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: space-around
+}
+
+.small-box {
+  font-size: 0.75rem;
+}
+
+           .box:hover { background-color: lightcyan; }
+.roddie-digital:hover { background-color: red }
+         .films:hover { background-color: white; }
+
+.roddie-digital {
+  grid-area: 6 / 5 / 8 / 7;
+  background-color: red;
+  color: yellow;
+  display: flex;
+  align-items: center;
+}
+
+.stuxnet {
+  grid-area: 4 / 5 / 6 / 7;
+}
+
+.poopmoji {
+  grid-area: 6 / 3 / 8 / 5;
+  background-color: goldenrod;
+}
+
+.spotter-guides {
+  grid-area: 4 / 7 / 6 / 9;
+  background-color: khaki;
+}
+
+.nagios {
+  grid-area: 6 / 7 / 8 / 9;
+}
+
+.unused-1 { grid-area: 8 / 5 / 10 / 7; }
+.unused-1:hover { background-color: yellow; }
+
+.unused-2 {
+  grid-area: 2 / 5 / 4 / 7;
+  background-color: orange;
+}
+.unused-2:hover { background-color: orange; }
+
+.robots {
+  grid-area: 8 / 7 / 10 / 9;
+  background-color: gold;
+}
+
+.films {
+  grid-area: 10 / 5 / 12 / 7;
+  background-color: lightcyan;
+}
+
+.john-shuttleworth {
+  grid-area: 6 / 9 / 8 / 11;
+  background-color: orange;
+}
+
+.crlgen {
+  grid-area: 8 / 4 / 9 / 5;
+  background-color: khaki;
+}
+
+.ublock {
+  grid-area: 5 / 4 / 6 / 5;
+  background-color: gold;
+}
+
+.focus {
+  grid-area: 3 / 9 / 4 / 10;
+  background-color: yellow;
+}
+
+.twitter {
+  grid-area: 9 / 9 / 10 / 10;
+  background-color: khaki;
+}
+
+.letterboxd {
+  grid-area: 8 / 10 / 9 / 10;
+  background-color: yellow;
+}
+
+.pdp {
+  grid-area: 6 / 2 / 7 / 3 ;
+}
+
+.grand-designs {
+  grid-area: 2 / 8 / 3 / 9 ;
+  background-color: gold;
+}
+
+.food {
+  grid-area: 9 / 2 / 10 / 3;
+  background-color: gold;
+}
