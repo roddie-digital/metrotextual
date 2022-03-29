@@ -1,3 +1,5 @@
+/* // STANDARD RULES */
+
 body {
   background-color: red;
   font-family: Consolas, monospace, monospace;
@@ -13,15 +15,6 @@ main {
 a {
   text-decoration: none;
   color: red;
-}
-
-.parent {
-  display: grid;
-  grid-template-columns: repeat(10, 5rem);
-  grid-template-rows: repeat(12, 5rem);
-  grid-column-gap: 3px;
-  grid-row-gap: 3px;
-  background-color: red;
 }
 
 .box {
@@ -40,6 +33,17 @@ a {
            .box:hover { background-color: lightcyan; }
 .roddie-digital:hover { background-color: red }
          .films:hover { background-color: white; }
+
+/* // FULL WIDTH RULES */
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(10, 5rem);
+  grid-template-rows: repeat(12, 5rem);
+  grid-column-gap: 3px;
+  grid-row-gap: 3px;
+  background-color: red;
+}
 
 .roddie-digital {
   grid-area: 6 / 5 / 8 / 7;
@@ -129,3 +133,117 @@ a {
   grid-area: 9 / 2 / 10 / 3;
   background-color: gold;
 }
+
+.vegan-highland {
+  grid-area: 10 / 1 / 12 / 3;
+  background-color: #6ca12b;
+  color: white;
+}
+
+.vegan-highland:hover {
+  color: red;
+}
+
+
+/* // 3 COLUMN RULES */
+
+@media screen and (max-width: 35rem) {
+.parent {
+  display: grid;
+  grid-template-columns: repeat(6, 5rem);
+  grid-template-rows: repeat(24, 5rem);
+  grid-column-gap: 3px;
+  grid-row-gap: 3px;
+  background-color: red;
+}
+
+.roddie-digital {
+  grid-area: 3 / 3 / 5 / 5;
+  background-color: red;
+  color: yellow;
+  display: flex;
+  align-items: center;
+}
+
+.stuxnet {
+  grid-area: 1 / 3 / 3 / 5;
+}
+
+.poopmoji {
+  grid-area: 3 / 5 / 5 / 7;
+  background-color: goldenrod;
+}
+
+.robots {
+  grid-area: 3 / 1 / 5 / 3;
+  background-color: gold;
+}
+
+.nagios {
+  grid-area: 5 / 3 / 7 / 5;
+}
+
+.films {
+  grid-area: 7 / 5 / 9 / 7;
+  background-color: lightcyan;
+}
+
+.john-shuttleworth {
+  grid-area: 7 / 1 / 9 / 3;
+  background-color: orange;
+}
+
+.vegan-highland {
+  grid-area: 7 / 3 / 9 / 5;
+  background-color: #6ca12b;
+  color: white;
+}
+
+.vegan-highland:hover {
+  color: red;
+}
+
+.spotter-guides {
+  grid-area: 9 / 3 / 11 / 5;
+  background-color: khaki;
+}
+
+.twitter {
+  grid-area: 5 / 5 / 6 / 6;
+  background-color: khaki;
+}
+
+.letterboxd {
+  grid-area: 6 / 6 / 7 / 7;
+  background-color: yellow;
+}
+
+.focus {
+  grid-area: 9 / 5 / 10 / 6;
+  background-color: yellow;
+}
+
+.food {
+  grid-area: 6 / 2 / 7 / 3;
+  background-color: gold;
+}
+
+.pdp {
+  grid-area: 2 / 5 / 3 / 6 ;
+}
+
+.grand-designs {
+  grid-area: 1 / 6 / 2 / 7 ;
+  background-color: gold;
+}
+
+.ublock {
+  grid-area: 10 / 5 / 11 / 6;
+  background-color: gold;
+}
+  
+.unused-1,
+.unused-2 {
+  display: none;
+}
+} /* close 3 column media query */
