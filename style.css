@@ -185,3 +185,37 @@ a {
   .unused-1, .unused-2 { display: none; }
   
 } /* close 2 column media query */
+
+/* // 1 COLUMN RULES */
+
+@media screen and (max-width: 350px) {
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 5rem);
+    grid-template-rows: repeat(13, 5rem);
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+    background-color: red;
+  }
+
+     .roddie-digital { grid-area:  1 / 1 /  2 / 3; font-size: 0.9rem; }
+             .crlgen { grid-area:  7 / 1 /  8 / 2; }
+              .films { grid-area: 11 / 1 / 12 / 3; }
+              .focus { grid-area: 10 / 2 / 11 / 3; }
+               .food { grid-area:  7 / 2 /  8 / 3; }
+      .grand-designs { grid-area:  5 / 2 /  6 / 3; }
+  .john-shuttleworth { grid-area: 12 / 1 / 13 / 3; }
+         .letterboxd { grid-area:  3 / 2 /  4 / 3; }
+             .nagios { grid-area: 13 / 1 / 14 / 3; }
+                .pdp { grid-area:  5 / 1 /  6 / 2; }
+           .poopmoji { grid-area:  6 / 1 /  7 / 3; }
+             .robots { grid-area:  4 / 1 /  5 / 3; }
+     .spotter-guides { grid-area:  9 / 1 / 10 / 3; }
+            .stuxnet { grid-area:  2 / 1 /  3 / 3; }
+            .twitter { grid-area:  3 / 1 /  4 / 2; }
+             .ublock { grid-area: 10 / 1 / 11 / 2; }
+     .vegan-highland { grid-area:  8 / 1 /  9 / 3; font-size: 0.9rem; }
+
+  .unused-1, .unused-2 { display: none; }
+  
+} /* close 1 column media query */
