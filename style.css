@@ -84,7 +84,7 @@ a {
 
 /* // 4 COLUMN RULES */
 
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 850px) {
   .parent {
     display: grid;
     grid-template-columns: repeat(8, 5rem);
@@ -119,7 +119,7 @@ a {
 
 /* // 3 COLUMN RULES */
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 650px) {
   .parent {
     display: grid;
     grid-template-columns: repeat(6, 5rem);
@@ -154,7 +154,7 @@ a {
 
 /* // 2 COLUMN RULES */
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 500px) {
   .parent {
     display: grid;
     grid-template-columns: repeat(4, 5rem);
@@ -186,9 +186,43 @@ a {
   
 } /* close 2 column media query */
 
-/* // 1 COLUMN RULES */
+/* // 1.5 COLUMN RULES */
 
 @media screen and (max-width: 350px) {
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 5rem);
+    grid-template-rows: repeat(13, 5rem);
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+    background-color: red;
+  }
+
+     .roddie-digital { grid-area:  2 / 1 /  3 / 4; font-size: 0.9rem; }
+             .crlgen { grid-area:  4 / 3 /  5 / 4; }
+              .films { grid-area: 5 / 2 / 6 / 4; }
+              .focus { grid-area: 8 / 3 / 9 / 4; }
+               .food { grid-area:  7 / 1 /  8 / 2; }
+      .grand-designs { grid-area:  6 / 3 /  7 / 4; }
+  .john-shuttleworth { grid-area: 12 / 1 / 13 / 3; }
+         .letterboxd { grid-area:  3 / 1 /  4 / 2; }
+             .nagios { grid-area: 6 / 1 / 7 / 3; }
+                .pdp { grid-area:  9 / 2 /  10 / 3; }
+           .poopmoji { grid-area:  4 / 1 /  5 / 3; }
+             .robots { grid-area:  3 / 2 /  4 / 4; }
+     .spotter-guides { grid-area:  8 / 1 / 9 / 3; }
+            .stuxnet { grid-area:  1 / 1 /  2 / 3; }
+            .twitter { grid-area:  1 / 3 /  2 / 4; }
+             .ublock { grid-area: 5 / 1 / 6 / 2; }
+     .vegan-highland { grid-area:  7 / 2 /  8 / 4; font-size: 0.9rem; }
+
+  .unused-1, .unused-2 { display: none; }
+  
+} /* close 1.5 column media query */
+
+/* // 1 COLUMN RULES */
+
+@media screen and (max-width: 270px) {
   .parent {
     display: grid;
     grid-template-columns: repeat(2, 5rem);
