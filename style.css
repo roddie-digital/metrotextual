@@ -30,9 +30,23 @@ a {
   font-size: 0.75rem;
 }
 
+.rd-box {
+  background-color: red;
+  color: yellow;
+  display: flex;
+  align-items: center;
+}
+     .gold-box { background-color: gold; }
+.goldenrod-box { background-color: goldenrod; }
+    .khaki-box { background-color: khaki; }
+.lightcyan-box { background-color: lightcyan; }
+   .orange-box { background-color: orange; }
+       .vh-box { background-color: #6ca12b; color: white; }
+
            .box:hover { background-color: lightcyan; }
 .roddie-digital:hover { background-color: red }
          .films:hover { background-color: white; }
+        .vh-box:hover { color: red; }
 
 /* // FULL WIDTH RULES */
 
@@ -45,99 +59,27 @@ a {
   background-color: red;
 }
 
-.roddie-digital {
-  grid-area: 6 / 5 / 8 / 7;
-  background-color: red;
-  color: yellow;
-  display: flex;
-  align-items: center;
-}
+   .roddie-digital { grid-area:  6 /  5 /  8 /  7; }
+           .crlgen { grid-area:  8 /  4 /  9 /  5; }
+            .films { grid-area: 10 /  5 / 12 /  7; }
+            .focus { grid-area:  3 /  9 /  4 / 10; }
+             .food { grid-area:  9 /  2 / 10 /  3; }
+    .grand-designs { grid-area:  2 /  8 /  3 /  9; }
+.john-shuttleworth { grid-area:  6 /  9 /  8 / 11; }
+       .letterboxd { grid-area:  8 / 10 /  9 / 10; }
+           .nagios { grid-area:  6 /  7 /  8 /  9; }
+              .pdp { grid-area:  6 /  2 /  7 /  3; }
+         .poopmoji { grid-area:  6 /  3 /  8 /  5; }
+           .robots { grid-area:  8 /  7 / 10 /  9; }
+   .spotter-guides { grid-area:  4 /  7 /  6 /  9; }
+          .stuxnet { grid-area:  4 /  5 /  6 /  7; }
+          .twitter { grid-area:  9 /  9 / 10 / 10; }
+           .ublock { grid-area:  5 /  4 /  6 /  5; }
+   .vegan-highland { grid-area: 10 /  1 / 12 /  3; }
 
-.crlgen {
-  grid-area: 8 / 4 / 9 / 5;
-  background-color: khaki;
-}
-
-.films {
-  grid-area: 10 / 5 / 12 / 7;
-  background-color: lightcyan;
-}
-
-.focus {
-  grid-area: 3 / 9 / 4 / 10;
-  background-color: yellow;
-}
-
-.food {
-  grid-area: 9 / 2 / 10 / 3;
-  background-color: gold;
-}
-
-.grand-designs {
-  grid-area: 2 / 8 / 3 / 9 ;
-  background-color: gold;
-}
-
-.john-shuttleworth {
-  grid-area: 6 / 9 / 8 / 11;
-  background-color: orange;
-}
-
-.letterboxd {
-  grid-area: 8 / 10 / 9 / 10;
-  background-color: yellow;
-}
-
-.nagios {
-  grid-area: 6 / 7 / 8 / 9;
-}
-
-.pdp {
-  grid-area: 6 / 2 / 7 / 3 ;
-}
-
-.poopmoji {
-  grid-area: 6 / 3 / 8 / 5;
-  background-color: goldenrod;
-}
-
-.robots {
-  grid-area: 8 / 7 / 10 / 9;
-  background-color: gold;
-}
-
-.spotter-guides {
-  grid-area: 4 / 7 / 6 / 9;
-  background-color: khaki;
-}
-
-.stuxnet {
-  grid-area: 4 / 5 / 6 / 7;
-}
-
-.twitter {
-  grid-area: 9 / 9 / 10 / 10;
-  background-color: khaki;
-}
-
-.ublock {
-  grid-area: 5 / 4 / 6 / 5;
-  background-color: gold;
-}
-
-.vegan-highland {
-  grid-area: 10 / 1 / 12 / 3;
-  background-color: #6ca12b;
-  color: white;
-}
-
-.vegan-highland:hover {
-  color: red;
-}
-
-.unused-1 { grid-area: 8 / 5 / 10 / 7; }
+      .unused-1 { grid-area: 8 / 5 / 10 / 7; }
+      .unused-2 { grid-area: 2 / 5 /  4 / 7; background-color: orange; }
 .unused-1:hover { background-color: yellow; }
-.unused-2 { grid-area: 2 / 5 / 4 / 7; background-color: orange; }
 .unused-2:hover { background-color: orange; }
 
 /* // 4 COLUMN RULES */
@@ -152,96 +94,23 @@ a {
     background-color: red;
   }
 
-  .roddie-digital {
-    grid-area: 5 / 4 / 7 / 6;
-    background-color: red;
-    color: yellow;
-    display: flex;
-    align-items: center;
-  }
-
-  /* //TODO check this */
-  .crlgen {
-    grid-area: 8 / 4 / 9 / 5;
-    background-color: khaki;
-  }
-
-  .focus {
-    grid-area: 9 / 5 / 10 / 6;
-    background-color: yellow;
-  }
-
-  .food {
-    grid-area: 7 / 2 / 8 / 3;
-    background-color: gold;
-  }
-
-  .films {
-    grid-area: 7 / 5 / 9 / 7;
-    background-color: lightcyan;
-  }
-
-  .grand-designs {
-    grid-area: 1 / 6 / 2 / 7 ;
-    background-color: gold;
-  }
-
-  .john-shuttleworth {
-    grid-area: 5 / 7 / 7 / 9;
-    background-color: orange;
-  }
-  
-  .letterboxd {
-    grid-area: 8 / 8 / 9 / 9;
-    background-color: yellow;
-  }
-  
-  .nagios {
-    grid-area: 3 / 3 / 5 / 5;
-  }
-  
-  .pdp {
-    grid-area: 2 / 5 / 3 / 6 ;
-  }
-
-  .poopmoji {
-    grid-area: 3 / 5 / 5 / 7;
-    background-color: goldenrod;
-  } 
- 
-  .robots {
-    grid-area: 1 / 1 / 3 / 3;
-    background-color: gold;
-  }
- 
-  .spotter-guides {
-    grid-area: 9 / 3 / 11 / 5;
-    background-color: khaki;
-  }
- 
-  .stuxnet {
-    grid-area: 5 / 1 / 7 / 3;
-  }
-
-  .twitter {
-    grid-area: 7 / 7 / 8 / 8;
-    background-color: khaki;
-  }
-
-  .ublock {
-    grid-area: 10 / 5 / 11 / 6;
-    background-color: gold;
-  }
-
-  .vegan-highland {
-    grid-area: 7 / 3 / 9 / 5;
-    background-color: #6ca12b;
-    color: white;
-  }
-
-  .vegan-highland:hover {
-    color: red;
-  }
+     .roddie-digital { grid-area:  5 / 4 /  7 / 6; }
+             .crlgen { grid-area:  8 / 4 /  9 / 5; } /* //TODO check this */
+              .focus { grid-area:  9 / 5 / 10 / 6; }
+               .food { grid-area:  7 / 2 /  8 / 3; }
+              .films { grid-area:  7 / 5 /  9 / 7; }
+      .grand-designs { grid-area:  1 / 6 /  2 / 7; }
+  .john-shuttleworth { grid-area:  5 / 7 /  7 / 9; }
+         .letterboxd { grid-area:  8 / 8 /  9 / 9; }
+             .nagios { grid-area:  3 / 3 /  5 / 5; }
+                .pdp { grid-area:  2 / 5 /  3 / 6; }
+           .poopmoji { grid-area:  3 / 5 /  5 / 7; } 
+             .robots { grid-area:  1 / 1 /  3 / 3; }
+     .spotter-guides { grid-area:  9 / 3 / 11 / 5; }
+            .stuxnet { grid-area:  5 / 1 /  7 / 3; }
+            .twitter { grid-area:  7 / 7 /  8 / 8; }
+             .ublock { grid-area: 10 / 5 / 11 / 6; }
+     .vegan-highland { grid-area:  7 / 3 /  9 / 5; }
 
   .unused-1, .unused-2 { display: none; }
   
@@ -260,98 +129,26 @@ a {
     background-color: red;
   }
 
-  .roddie-digital {
-    grid-area: 3 / 3 / 5 / 5;
-    background-color: red;
-    color: yellow;
-    display: flex;
-    align-items: center;
-  }
-
-  /* //TODO check this */
-  .crlgen {
-    grid-area: 8 / 4 / 9 / 5;
-    background-color: khaki;
-  }
-
-  .films {
-    grid-area: 7 / 5 / 9 / 7;
-    background-color: lightcyan;
-  }
-
-  .focus {
-    grid-area: 9 / 5 / 10 / 6;
-    background-color: yellow;
-  }
-
-  .food {
-    grid-area: 6 / 2 / 7 / 3;
-    background-color: gold;
-  }
-
-  .grand-designs {
-    grid-area: 1 / 6 / 2 / 7 ;
-    background-color: gold;
-  }
-
-  .john-shuttleworth {
-    grid-area: 7 / 1 / 9 / 3;
-    background-color: orange;
-  }
-
-  .letterboxd {
-    grid-area: 6 / 6 / 7 / 7;
-    background-color: yellow;
-  }
-
-  .nagios {
-    grid-area: 5 / 3 / 7 / 5;
-  }
-
-  .pdp {
-    grid-area: 2 / 5 / 3 / 6 ;
-  }
-
-  .poopmoji {
-    grid-area: 3 / 5 / 5 / 7;
-    background-color: goldenrod;
-  }
-
-  .robots {
-    grid-area: 3 / 1 / 5 / 3;
-    background-color: gold;
-  }
-
-  .spotter-guides {
-    grid-area: 9 / 3 / 11 / 5;
-    background-color: khaki;
-  }
-
-  .stuxnet {
-    grid-area: 1 / 3 / 3 / 5;
-  }
-
-  .twitter {
-    grid-area: 5 / 5 / 6 / 6;
-    background-color: khaki;
-  }
-
-  .ublock {
-    grid-area: 10 / 5 / 11 / 6;
-    background-color: gold;
-  }
-
-  .vegan-highland {
-    grid-area: 7 / 3 / 9 / 5;
-    background-color: #6ca12b;
-    color: white;
-  }
-
-  .vegan-highland:hover {
-    color: red;
-  }
+     .roddie-digital { grid-area:  3 / 3 /  5 / 5; }
+             .crlgen { grid-area:  8 / 4 /  9 / 5; } /* //TODO check this */
+              .films { grid-area:  7 / 5 /  9 / 7; }
+              .focus { grid-area:  9 / 5 / 10 / 6; }
+               .food { grid-area:  6 / 2 /  7 / 3; }
+      .grand-designs { grid-area:  1 / 6 /  2 / 7; }
+  .john-shuttleworth { grid-area:  7 / 1 /  9 / 3; }
+         .letterboxd { grid-area:  6 / 6 /  7 / 7; }
+             .nagios { grid-area:  5 / 3 /  7 / 5; }
+                .pdp { grid-area:  2 / 5 /  3 / 6; }
+           .poopmoji { grid-area:  3 / 5 /  5 / 7; }
+             .robots { grid-area:  3 / 1 /  5 / 3; }
+     .spotter-guides { grid-area:  9 / 3 / 11 / 5; }
+            .stuxnet { grid-area:  1 / 3 /  3 / 5; }
+            .twitter { grid-area:  5 / 5 /  6 / 6; }
+             .ublock { grid-area: 10 / 5 / 11 / 6; }
+     .vegan-highland { grid-area:  7 / 3 /  9 / 5; }
     
   .unused-1, .unused-2 { display: none; }
+  
 } /* close 3 column media query */
 
 
@@ -367,95 +164,23 @@ a {
     background-color: red;
   }
 
-  .roddie-digital {
-    grid-area: 3 / 1 / 4 / 5;
-    background-color: red;
-    color: yellow;
-    display: flex;
-    align-items: center;
-  }
-
-  .crlgen {
-    grid-area: 8 / 1 / 9 / 2;
-    background-color: khaki;
-  }
-  
-  .films {
-    grid-area: 8 / 3 / 10 / 5;
-    background-color: lightcyan;
-  }
-
-  .focus {
-    grid-area: 11 / 2 / 12 / 3;
-    background-color: yellow;
-  }
-
-  .food {
-    grid-area: 8 / 2 / 9 / 3;
-    background-color: gold;
-  }
-
-  .grand-designs {
-    grid-area: 7 / 4 / 8 / 5 ;
-    background-color: gold;
-  }
-  
-  .john-shuttleworth {
-    grid-area: 6 / 1 / 8 / 3;
-    background-color: orange;
-  }
- 
-  .letterboxd {
-    grid-area: 4 / 4 / 5 / 5;
-    background-color: yellow;
-  }
-
-  .nagios {
-    grid-area: 5 / 3 / 7 / 5;
-  }
-  
-  .pdp {
-    grid-area: 7 / 3 / 8 / 4 ;
-  }
-  
-  .poopmoji {
-    grid-area: 4 / 1 / 6 / 3;
-    background-color: goldenrod;
-  }
-  
-  .robots {
-    grid-area: 1 / 1 / 3 / 3;
-    background-color: gold;
-  }
-  
-  .spotter-guides {
-    grid-area: 10 / 3 / 12 / 5;
-    background-color: khaki;
-  }
-  
-  .stuxnet {
-    grid-area: 1 / 3 / 3 / 5;
-  }
-  
-  .twitter {
-    grid-area: 4 / 3 / 5 / 4;
-    background-color: khaki;
-  }
-  
-  .ublock {
-    grid-area: 11 / 1 / 12 / 2;
-    background-color: gold;
-  }
-  
-  .vegan-highland {
-    grid-area: 9 / 1 / 11 / 3;
-    background-color: #6ca12b;
-    color: white;
-  }
-
-  .vegan-highland:hover {
-    color: red;
-  }
+     .roddie-digital { grid-area:  3 / 1 /  4 / 5; }
+             .crlgen { grid-area:  8 / 1 /  9 / 2; }
+              .films { grid-area:  8 / 3 / 10 / 5; }
+              .focus { grid-area: 11 / 2 / 12 / 3; }
+               .food { grid-area:  8 / 2 /  9 / 3; }
+      .grand-designs { grid-area:  7 / 4 /  8 / 5; }
+  .john-shuttleworth { grid-area:  6 / 1 /  8 / 3; }
+         .letterboxd { grid-area:  4 / 4 /  5 / 5; }
+             .nagios { grid-area:  5 / 3 /  7 / 5; }
+                .pdp { grid-area:  7 / 3 /  8 / 4; }
+           .poopmoji { grid-area:  4 / 1 /  6 / 3; }
+             .robots { grid-area:  1 / 1 /  3 / 3; }
+     .spotter-guides { grid-area: 10 / 3 / 12 / 5; }
+            .stuxnet { grid-area:  1 / 3 /  3 / 5; }
+            .twitter { grid-area:  4 / 3 /  5 / 4; }
+             .ublock { grid-area: 11 / 1 / 12 / 2; }
+     .vegan-highland { grid-area:  9 / 1 / 11 / 3; }
 
   .unused-1, .unused-2 { display: none; }
   
