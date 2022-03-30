@@ -192,7 +192,7 @@ a {
   .parent {
     display: grid;
     grid-template-columns: repeat(3, 5rem);
-    grid-template-rows: repeat(13, 5rem);
+    grid-template-rows: repeat(9, 5rem);
     grid-column-gap: 3px;
     grid-row-gap: 3px;
     background-color: red;
@@ -204,10 +204,10 @@ a {
               .focus { grid-area: 8 / 3 / 9 / 4; }
                .food { grid-area:  7 / 1 /  8 / 2; }
       .grand-designs { grid-area:  6 / 3 /  7 / 4; }
-  .john-shuttleworth { grid-area: 12 / 1 / 13 / 3; }
+  .john-shuttleworth { grid-area: 9 / 2 / 10 / 4; }
          .letterboxd { grid-area:  3 / 1 /  4 / 2; }
              .nagios { grid-area: 6 / 1 / 7 / 3; }
-                .pdp { grid-area:  9 / 2 /  10 / 3; }
+                .pdp { grid-area:  9 / 1 /  10 / 2; }
            .poopmoji { grid-area:  4 / 1 /  5 / 3; }
              .robots { grid-area:  3 / 2 /  4 / 4; }
      .spotter-guides { grid-area:  8 / 1 / 9 / 3; }
