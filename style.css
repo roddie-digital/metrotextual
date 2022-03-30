@@ -53,32 +53,32 @@ a {
 .parent {
   display: grid;
   grid-template-columns: repeat(10, 5rem);
-  grid-template-rows: repeat(12, 5rem);
+  grid-template-rows: repeat(10, 5rem);
   grid-column-gap: 3px;
   grid-row-gap: 3px;
   background-color: red;
 }
 
-   .roddie-digital { grid-area:  6 /  5 /  8 /  7; }
-           .crlgen { grid-area:  8 /  4 /  9 /  5; }
-            .films { grid-area: 10 /  5 / 12 /  7; }
-            .focus { grid-area:  3 /  9 /  4 / 10; }
-             .food { grid-area:  9 /  2 / 10 /  3; }
-    .grand-designs { grid-area:  2 /  8 /  3 /  9; }
-.john-shuttleworth { grid-area:  6 /  9 /  8 / 11; }
-       .letterboxd { grid-area:  8 / 10 /  9 / 10; }
-           .nagios { grid-area:  6 /  7 /  8 /  9; }
-              .pdp { grid-area:  6 /  2 /  7 /  3; }
-         .poopmoji { grid-area:  6 /  3 /  8 /  5; }
-           .robots { grid-area:  8 /  7 / 10 /  9; }
-   .spotter-guides { grid-area:  4 /  7 /  6 /  9; }
-          .stuxnet { grid-area:  4 /  5 /  6 /  7; }
-          .twitter { grid-area:  9 /  9 / 10 / 10; }
-           .ublock { grid-area:  5 /  4 /  6 /  5; }
-   .vegan-highland { grid-area: 10 /  1 / 12 /  3; }
+   .roddie-digital { grid-area: 5 /  5 /  7 /  7; }
+           .crlgen { grid-area: 7 /  4 /  8 /  5; }
+            .films { grid-area: 9 /  5 / 11 /  7; }
+            .focus { grid-area: 2 /  9 /  3 / 10; }
+             .food { grid-area: 8 /  2 /  9 /  3; }
+    .grand-designs { grid-area: 1 /  8 /  2 /  9; }
+.john-shuttleworth { grid-area: 5 /  9 /  7 / 11; }
+       .letterboxd { grid-area: 7 / 10 /  8 / 10; }
+           .nagios { grid-area: 5 /  7 /  7 /  9; }
+              .pdp { grid-area: 5 /  2 /  6 /  3; }
+         .poopmoji { grid-area: 5 /  3 /  7 /  5; }
+           .robots { grid-area: 7 /  7 /  9 /  9; }
+   .spotter-guides { grid-area: 3 /  7 /  5 /  9; }
+          .stuxnet { grid-area: 3 /  5 /  5 /  7; }
+          .twitter { grid-area: 8 /  9 /  9 / 10; }
+           .ublock { grid-area: 4 /  4 /  5 /  5; }
+   .vegan-highland { grid-area: 9 /  1 / 11 /  3; }
 
-      .unused-1 { grid-area: 8 / 5 / 10 / 7; }
-      .unused-2 { grid-area: 2 / 5 /  4 / 7; background-color: orange; }
+      .unused-1 { grid-area: 7 / 5 / 9 / 7; }
+      .unused-2 { grid-area: 1 / 5 / 3 / 7; background-color: orange; }
 .unused-1:hover { background-color: yellow; }
 .unused-2:hover { background-color: orange; }
 
@@ -119,7 +119,7 @@ a {
 
 /* // 3 COLUMN RULES */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 670px) {
   .parent {
     display: grid;
     grid-template-columns: repeat(6, 5rem);
